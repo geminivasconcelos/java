@@ -1,3 +1,4 @@
+import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -7,5 +8,8 @@ public class Main {
 
        System.out.println("Olá, "+conta.titular + "!");
        System.out.println("Qual operação deseja fazer? \n1 - Consultar saldo \n2 - Sacar dinheiro \n3 - Depositar");
+
+        Scanner opcaoDigitadaPeloUsuario = new Scanner();
+
     }
 }
